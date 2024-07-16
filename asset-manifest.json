@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/aplicaciones/static/css/main.f42ca170.css",
+    "main.js": "/aplicaciones/static/js/main.84ed855d.js",
+    "static/media/minimalistic-workplace-with-gadgets.jpg": "/aplicaciones/static/media/minimalistic-workplace-with-gadgets.4e9563cd5fcc2da5d91e.jpg",
+    "static/media/6965061.jpg": "/aplicaciones/static/media/6965061.e64332b0c418afc64242.jpg",
+    "static/media/profesor.png": "/aplicaciones/static/media/profesor.c85054b612ce7eb68b65.png",
+    "static/media/bg4.jpg": "/aplicaciones/static/media/bg4.32d6bdbe799f31ca62a6.jpg",
+    "index.html": "/aplicaciones/index.html",
+    "main.f42ca170.css.map": "/aplicaciones/static/css/main.f42ca170.css.map",
+    "main.84ed855d.js.map": "/aplicaciones/static/js/main.84ed855d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f42ca170.css",
+    "static/js/main.84ed855d.js"
+  ]
+}
