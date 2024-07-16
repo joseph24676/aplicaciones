@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #555;
+    text-align: justify;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.form-group {
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+    font-weight: 500;
+}
+
+.drop-zone {
+    width: 100%;
+    padding: 20px;
+    border: 2px dashed #ddd;
+    border-radius: 6px;
+    background-color: #f7f7f7;
+    text-align: center;
+    cursor: pointer;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+    box-sizing: border-box;
+}
+
+.drop-zone:hover {
+    border-color: #007bff;
+    background-color: #f0f8ff;
+}
+
+.drop-zone p {
+    margin: 0;
+    color: #777;
+    font-size: 16px;
+}
+
+.mensajeExito {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.mensajeError {
+    background-color: #f44336;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+#cargarDocumentoBtn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 10px rgba(0, 123, 255, 0.2);
+}
+
+#cargarDocumentoBtn:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 20px rgba(0, 123, 255, 0.3);
+}
+
+#cargarDocumentoBtn:active {
+    background-color: #004080;
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.5);
+}
+
+#cargarDocumentoBtn:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(0, 123, 255, 0.5);
+}

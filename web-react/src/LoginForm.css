@@ -1,0 +1,103 @@
+/* Establecer imagen de fondo para toda la página */
+body {
+    background-image: url('./images/bg4.jpg'); /* Reemplaza 'path/to/your/bg4.jpg' con la ruta real de tu imagen */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif; /* Cambio de fuente a Roboto */
+  }
+  
+  /* Estilos para el formulario de inicio de sesión */
+  .login-form-container {
+    max-width: 400px;
+    margin: 50px auto; /* Ajuste la distancia hacia abajo ajustando el valor de margin-top */
+    padding: 30px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 20px rgba(4, 253, 4, 0.968); /* Sombra verde */
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid transparent; /* Borde transparente para el contenedor */
+    transition: transform 0.3s ease-in-out; /* Transición para el efecto de salto */
+  }
+  
+  .login-form-container:hover {
+    transform: translateY(-5px); /* Efecto de salto hacia arriba al pasar el mouse */
+  }
+  
+  .login-form {
+    width: 100%; /* Asegura que el formulario ocupe todo el ancho del contenedor */
+  }
+  
+  .login-form h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 24px;
+    color: #333333;
+  }
+  
+  .login-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .login-form .form-group .label-left {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #333333;
+    text-align: left; /* Alineación de la etiqueta a la izquierda */
+  }
+  
+  .login-form .form-group input {
+    width: calc(100% - 24px); /* Ajuste el ancho del input según sea necesario */
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .login-form .form-group input.align-left {
+    text-align: left; /* Alineación del texto del input a la izquierda */
+  }
+  
+  .login-form .form-group input:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .login-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .login-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .login-form .register-link {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #666666;
+  }
+  
+  .login-form .register-link span {
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .login-form .register-link span:hover {
+    text-decoration: none;
+  }
+  

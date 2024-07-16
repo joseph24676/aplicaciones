@@ -1,0 +1,44 @@
+/* login.css */
+
+.login-container {
+    max-width: 900px; /* Puedes ajustar el tamaño máximo */
+    margin: 70px auto;
+    padding: 50px;
+    background-color: #ffeb3b; /* Color amarillo */
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    color: #333;
+    font-weight: 500;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    width: 100%; /* Asegura que los campos tengan el mismo ancho */
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

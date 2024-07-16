@@ -1,0 +1,81 @@
+/* historial.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #32e9b2;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 20px;
+    position: relative; /* Añade posición relativa al contenedor */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px 12px;
+    border: 2px solid #ddd;
+    text-align: center;
+}
+
+thead {
+    background-color: #37ddc2;
+    color: #000000;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+    background-color: #e2e2e2;
+}
+
+.approved {
+    color: #28a745;
+}
+
+.pending {
+    color: #ffc107;
+}
+
+.denied {
+    color: red;
+}
+
+#eliminarHistorialBtn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 5px; /* Ajusta el padding para hacer el botón más pequeño */
+    font-size: 14px; /* Ajusta el tamaño de la fuente */
+    cursor: pointer;
+    position: absolute;
+    bottom: 0.00px; /* Ajusta la posición del botón hacia abajo */
+    right: 20px;
+    border-radius: 3px; /* Ajusta el radio de borde si es necesario */
+    transition: background-color 0.3s;
+}
+
+#eliminarHistorialBtn:hover {
+    background-color: #d32f2f;
+}
